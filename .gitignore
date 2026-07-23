@@ -17,3 +17,6 @@ backend/data/ca_last_fetch.txt
 backend/data/ca_summary_build_date.txt
 backend/data/trap_summary.json
 backend/data/deepseek_usage_tracker.json
+backend/test_*
+SYSTEM_ARCHITECTURE.md
+docs/
