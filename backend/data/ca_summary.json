@@ -1,0 +1,99 @@
+{
+  "version": 10,
+  "last_updated": "2026-06-30",
+  "high_yield_topics": [
+    {
+      "topic": "Climate Change, Biodiversity and Green Tech",
+      "weight": 1.0,
+      "gs_paper": "GS-III",
+      "frequency": 57
+    },
+    {
+      "topic": "Constitutional Articles and Federal Governance",
+      "weight": 0.81,
+      "gs_paper": "GS-II",
+      "frequency": 46
+    },
+    {
+      "topic": "Fiscal Policy, Revenue, and Resource Allocation",
+      "weight": 0.44,
+      "gs_paper": "GS-III",
+      "frequency": 25
+    },
+    {
+      "topic": "Ancient History and Cultural Chronology",
+      "weight": 0.39,
+      "gs_paper": "GS-I",
+      "frequency": 22
+    },
+    {
+      "topic": "Public Health, Biotechnology and DNA Research",
+      "weight": 0.25,
+      "gs_paper": "GS-III",
+      "frequency": 14
+    },
+    {
+      "topic": "Defense Indigenization and Cybersecurity",
+      "weight": 0.16,
+      "gs_paper": "GS-III",
+      "frequency": 9
+    },
+    {
+      "topic": "International Relations and Multilateral Forums",
+      "weight": 0.07,
+      "gs_paper": "GS-II",
+      "frequency": 4
+    },
+    {
+      "topic": "Indian Geography and Physiography",
+      "weight": 0.02,
+      "gs_paper": "GS-I",
+      "frequency": 1
+    }
+  ],
+  "pyq_insights": {
+    "total_questions_analyzed": 175,
+    "subject_breakdown": {
+      "Polity": 70,
+      "GS": 42,
+      "Economy": 21,
+      "History": 14,
+      "Geography": 14,
+      "Environment": 14
+    },
+    "trending_keywords": [
+      "india",
+      "climate",
+      "state",
+      "revenue",
+      "change",
+      "shrub",
+      "types",
+      "battery",
+      "directorate",
+      "deficit"
+    ]
+  },
+  "academy_insights": {
+    "patterns": [
+      "Judicial expansion of Fundamental Rights into everyday urban governance (Right to Walk)",
+      "Conflict between National Education Policy (NEP) 2020 linguistic mandates and regional/tribal federalism",
+      "Integration of AI-driven biometric tools (NCRB Abhigyan) in policing vs. civil liberty concerns",
+      "Shift from primary renewable generation to grid optimization and transmission bottlenecks (HTLS conductors)",
+      "Rising focus on secondary pollutants (Surface Ozone) linked to climate-driven heatwaves",
+      "Financialization of tech through mega-IPOs and SEBI regulatory shifts in buybacks"
+    ],
+    "filter_prompt": "Classify news as RELEVANT or NOT for the UPSC Civil Services Exam based on the following specific high-yield criteria:\n\n1. GS-I (Society & Geography): Focus on geophysical changes such as glacial lake expansion (GLOF risks) and social empowerment like women-dedicated policing and PVTG-specific health crises (Sickle Cell Anaemia). \n\n2. GS-II (Governance & IR): Prioritize judicial activism extending Article 19 and 21 (e.g., Right to Walk), federal friction regarding the Three-Language Formula/NEP, and India's leadership in multilateral bodies (FATF VP, UNHRC). Any news regarding the IT Act Section 69A or surveillance technology must be analyzed for its impact on civil liberties.\n\n3. GS-III (Economy, Environment, & Tech): Focus on grid optimization techniques (HTLS"
+  },
+  "active_focus_areas": [
+    "Article 21 & Urban Governance (Right to Walk)",
+    "Federalism vs. NEP 2020 (Language Policy & State Rights)",
+    "Grid Infrastructure & Renewable Stranding (HTLS Conductors)",
+    "NCRB Biometric Identification vs. Privacy (Abhigyan App)",
+    "Ground-Level Ozone & Heatwave-Health Linkage",
+    "Global Internet Governance & Root Servers (ICANN/NIXI)",
+    "Atmanirbhar Defense (Indigenous Naval Frigates & Corvettes)",
+    "Capital Market Reforms (Mega-IPOs & SEBI Buyback Norms)",
+    "Sickle Cell Elimination & Tribal Health Policy"
+  ]
+}

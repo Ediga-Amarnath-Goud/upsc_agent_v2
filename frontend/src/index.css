@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    @apply m-0 p-0 antialiased;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+}
+
+@layer components {
+  .glass {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+  }
+  .glass-hover:hover {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(255,255,255,0.1);
+  }
+  .gradient-blue {
+    background: linear-gradient(135deg, rgba(45,156,255,0.15), rgba(45,156,255,0.05));
+    border-color: rgba(45,156,255,0.2);
+  }
+  .neon-glow {
+    box-shadow: 0 0 20px rgba(45,156,255,0.15);
+  }
+  .kpi-number {
+    @apply font-bold tracking-tight;
+    font-size: clamp(28px, 4vw, 60px);
+    line-height: 1;
+  }
+}
